@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/index.css">
+
+<body>
+    <div class="container">
+        <div class="page page0 ">
+            <img class="page_img" src="images/page0.png" alt="">
+        </div>
+        <div class="page page1  page_on">
+            <div class="comTitle">
+                <p class="title">交易数据</p>
+                <p class="time">时间截止于:2017.10.31</p>
+            </div>
+            <li class="canvas" id="chartmain01" style="width:650px; height: 30%;"></li>
+            <p class="bt_p">万贝金服累计成交金额</p>
+            <li class="canvas" id="chartmain02" style="width:900px; height: 40%;"></li>
+            <p class="bt_p">万贝金服2017年月成交金额</p>
+        </div>
+        <div class="page page2">
+            <div class="comTitle">
+                    <p class="title">用户注册数据</p>
+                    <p class="time">时间截止于:2017.10.31</p>
+                </div>
+                <li class="canvas" id="chartmain03" style="width:650px; height: 30%;"></li>
+                <p class="bt_p">万贝金服累计年注册用户</p>
+                <li class="canvas" id="chartmain04" style="width:900px; height: 40%;"></li>
+                <p class="bt_p">万贝金服2017年月注册人数</p>
+        </div>
+        <div class="page page3 ">
+            <div class="comTitle">
+                <p class="title">收益数据</p>
+                <p class="time">时间截止于:2017.10.31</p>
+            </div>
+            <li class="canvas" id="chartmain05" style="width:650px; height: 30%;"></li>
+            <p class="bt_p">万贝金服累计为投资人获得收益</p>
+            <li class="canvas" id="chartmain06" style="width:900px; height: 40%;"></li>
+            <p class="bt_p">万贝金服2017年月发放收益</p>
+        </div>
+        <div class="page page4 ">
+            <div class="comTitle">
+                <p class="title">借款比例数据</p>
+                <p class="time">时间截止于:2017.10.31</p>
+            </div>
+            <div class="block">
+                <div class="pie_block">
+                    <p>2016年10月总待回收金额</p>
+                    <p class="pie_price">7,700,000</p>
+                </div>
+                <div  class="pie_block">
+                    <p>2017年10月总待回收金额</p>
+                    <p class="pie_price">57,700,000</p>
+                </div>
+            </div>
+          
+            <li class="canvas" id="chartmain00" style="width:900px; height:65%;"></li>
+            <p class="bt_p">万贝金服2017年前十大借款人待还金额占比</p>
+        </div>
+        <div class="page page5 ">
+            <div class="comTitle">
+                <p class="title">累计出借人数</p>
+                <p class="time">时间截止于:2017.10.31</p>
+            </div>
+            <li class="canvas" id="chartmain07" style="width:650px; height: 30%;"></li>
+            <p class="bt_p">万贝金服累计出借人数量</p>
+            <li class="canvas" id="chartmain08" style="width:900px; height: 40%;"></li>
+            <p class="bt_p">万贝金服2017年月出借人数量</p>
+        </div>
+        <div class="page page6 ">
+            <div class="comTitle">
+                <p class="title">累计借款人数</p>
+                <p class="time">时间截止于:2017.10.31</p>
+            </div>
+            <li class="canvas" id="chartmain09" style="width:650px; height: 30%;"></li>
+            <p class="bt_p">万贝金服累计借款人数量</p>
+            <li class="canvas" id="chartmain10" style="width:900px; height: 40%;"></li>
+            <p class="bt_p">万贝金服2017年月借款人数量</p>
+        </div>
+        <div class="page page7">
+                <img class="page7_img" src="images/page7.png" alt="">
+        </div>
+    </div>
+   
+
+    
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.easie.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/echarts.common.min.js"></script>
+
+    <!-- 数据接受 canvas -->
+    <script src="js/canvas.js"></script>
+    <script src="js/main.js"></script>
+ 
+</body>
+
+</html>
